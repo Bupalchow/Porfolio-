@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 5vw;
+    background-color: green;
+    font-family: 'Comic Sans MS';
+    background-image: url(https://images.hdqwalls.com/download/dark-green-plants-abstract-5k-qs-2560x1440.jpg);
+    background-size: cover;
+}
+
+img{
+    height: 10rem;
+    width: 6rem;
+    display: block;
+    margin:2rem auto;
+}
+
+nav{
+    background-color:olivedrab;
+    border-radius: 30px;
+    margin: 3rem 0;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+#promo-text h1{
+    font-size :4rem;
+    border: 1px white ;
+    text-shadow: 0 0 20px #ffff;
+}
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+#promo{
+    background-image: url(https://wallpapercave.com/wp/wp9081772.jpg);
+    background-position: 70% 70%;
+    background-size: cover;
+    border-radius: 25px;
+    width: 100%;
+    height: 40vh;
+    margin: 1rem 0;
+    padding: 0 2rem;
+}
+
+footer img{
+    height: 2.5rem;
+    width: 1.5rem;
+}
+
+#promo-text{
+    color: aliceblue;
+}
+
+footer{
+    background-color: olivedrab;
+    position: relative;
+    height: 10vh;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article{
+    transition: 0.5s ease-in-out;
+    margin-top: 2rem;
+    padding: 1.5rem 1rem;
+    background-color:rgba(255, 255, 40,0.9);
+    border-radius: 5px;
+    padding: auto;
+    box-shadow: 0 0 20px lightgreen;
+}
+
+#sub{
+    gap: 6vw;
+    text-align: center;
+}
+#sub p{
+    text-align: justify;
+}
+
+
+article:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a:hover{
+    cursor: pointer;
+    text-shadow: 0 0 100px #ffff;
+}
